@@ -1,0 +1,38 @@
+{
+    "name": "cpuchain-org",
+    "private": true,
+    "version": "1.0.0",
+    "description": "CPUchain Homepage",
+    "license": "MIT",
+    "author": "CPUchain",
+    "type": "module",
+    "main": "index.js",
+    "keywords": [
+        "cpuchain",
+        "blockchain",
+        "layer1",
+        "mainnet",
+        "smart-contracts",
+        "proof-of-work",
+        "pow",
+        "mining",
+        "cpu-mining",
+        "yespower",
+        "web3"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cpuchain/cpuchain-org.git"
+    },
+    "scripts": {
+        "docs:dev": "vitepress dev",
+        "docs:build": "vitepress build",
+        "docs:preview": "vitepress preview"
+    },
+    "devDependencies": {
+        "@types/node": "^24.0.10",
+        "tsc": "^2.0.4",
+        "typescript": "^5.8.3",
+        "vitepress": "^1.6.3"
+    }
+}
